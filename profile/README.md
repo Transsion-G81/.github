@@ -4,7 +4,7 @@
 
 **Device Trees for MediaTek Helio G81 (MT6768) Transsion phones**
 
-![LineageOS](https://img.shields.io/badge/LineageOS-23.2-167C80?style=flat-square&logo=lineageos&logoColor=white)
+![LineageOS](https://img.shields.io/badge/LineageOS-23.x-167C80?style=flat-square&logo=lineageos&logoColor=white)
 ![Android](https://img.shields.io/badge/Android-16-3DDC84?style=flat-square&logo=android&logoColor=white)
 ![SoC](https://img.shields.io/badge/SoC-Helio%20G81%20(MT6768)-informational?style=flat-square)
 
@@ -13,6 +13,9 @@ Infinix HOT 50i &nbsp;·&nbsp; Infinix Smart 9 &nbsp;·&nbsp; TECNO Spark 30C
 </div>
 
 ---
+
+> Built against **LineageOS 23.x (Android 16)** right now — the trees are not tied
+> to a single release, and more LineageOS branches will be added over time.
 
 ## Supported devices
 
@@ -32,7 +35,7 @@ All five products run the same SoC — **MediaTek Helio G81 (MT6768, 12 nm)**.
 ## Build it yourself
 
 ```bash
-# 1) init LineageOS 23.2
+# 1) init LineageOS (shown: lineage-23.2 / Android 16 — swap for another branch)
 repo init -u https://github.com/LineageOS/android.git -b lineage-23.2 --git-lfs
 
 # 2) add our manifest
