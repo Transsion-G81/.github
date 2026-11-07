@@ -2,7 +2,7 @@
 
 # Transsion G81
 
-**Unofficial LineageOS 23.2 (Android 16) for MediaTek Helio G81 (MT6768) Transsion phones**
+**Device Trees for MediaTek Helio G81 (MT6768) Transsion phones**
 
 ![LineageOS](https://img.shields.io/badge/LineageOS-23.2-167C80?style=flat-square&logo=lineageos&logoColor=white)
 ![Android](https://img.shields.io/badge/Android-16-3DDC84?style=flat-square&logo=android&logoColor=white)
