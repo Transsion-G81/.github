@@ -14,7 +14,7 @@ Infinix HOT 50i &nbsp;·&nbsp; Infinix Smart 9 &nbsp;·&nbsp; TECNO Spark 30C
 
 ---
 
-## 📱 Supported devices
+## Supported devices
 
 All five products run the same SoC — **MediaTek Helio G81 (MT6768, 12 nm)**.
 
@@ -29,7 +29,7 @@ All five products run the same SoC — **MediaTek Helio G81 (MT6768, 12 nm)**.
 > `X6531B` and `KL5n` are variants of their base tree. `KL5n` applies the NFC /
 > IMX582 patches at build time, so it is always built **last**.
 
-## 🚀 Build it yourself
+## Build it yourself
 
 ```bash
 # 1) init LineageOS 23.2
@@ -58,26 +58,25 @@ capture, and Telegram / webhook status notifications (including the download lin
 of every uploaded file). Run `./build-all.sh --help` for everything, or see the
 **[local_manifests](https://github.com/Transsion-G81/local_manifests)** guide.
 
-## 🗂️ Repositories
+## Repositories
 
 | Repository | What it is |
 | --- | --- |
-| [**local_manifests**](https://github.com/Transsion-G81/local_manifests) | the `repo` manifest + the `build-all.sh` build/release script |
-| [**release**](https://github.com/Transsion-G81/release) | release notes and build links |
-| [**android_device_**infinix_**X6531**](https://github.com/Transsion-G81/android_device_infinix_X6531) | device tree for `X6531` / `X6531B` |
-| [**android_device_**infinix_**X6532**](https://github.com/Transsion-G81/android_device_infinix_X6532) | device tree for `X6532` |
-| [**android_device_**tecno_**KL5**](https://github.com/Transsion-G81/android_device_tecno_KL5) | device tree for `KL5` / `KL5n` |
-| [**android_vendor_**infinix_**X6531**](https://github.com/Transsion-G81/android_vendor_infinix_X6531) | vendor blobs for `X6531` / `X6531B` |
-| [**android_vendor_**infinix_**X6532**](https://github.com/Transsion-G81/android_vendor_infinix_X6532) | vendor blobs for `X6532` |
-| [**android_vendor_**tecno_**KL5**](https://github.com/Transsion-G81/android_vendor_tecno_KL5) | vendor blobs for `KL5` / `KL5n` |
-| [**android_kernel_**infinix_**X6531**](https://github.com/Transsion-G81/android_kernel_infinix_X6531) | kernel source for `X6531` / `X6531B` |
-| [**android_kernel_**infinix_**X6532**](https://github.com/Transsion-G81/android_kernel_infinix_X6532) | kernel source for `X6532` |
-| [**android_kernel_**tecno_**KL5**](https://github.com/Transsion-G81/android_kernel_tecno_KL5) | kernel source for `KL5` / `KL5n` |
-| [**android_packages_modules_Nfc**](https://github.com/Transsion-G81/android_packages_modules_Nfc) | NFC packages used by the `KL5n` build |
+| [`local_manifests`](https://github.com/Transsion-G81/local_manifests) | the `repo` manifest + the `build-all.sh` build/release script |
+| [`release`](https://github.com/Transsion-G81/release) | release notes and build links |
+| [`android_device_infinix_X6531`](https://github.com/Transsion-G81/android_device_infinix_X6531) | device tree for `X6531` / `X6531B` |
+| [`android_device_infinix_X6532`](https://github.com/Transsion-G81/android_device_infinix_X6532) | device tree for `X6532` |
+| [`android_device_tecno_KL5`](https://github.com/Transsion-G81/android_device_tecno_KL5) | device tree for `KL5` / `KL5n` |
+| [`android_vendor_infinix_X6531`](https://github.com/Transsion-G81/android_vendor_infinix_X6531) | vendor blobs for `X6531` / `X6531B` |
+| [`android_vendor_infinix_X6532`](https://github.com/Transsion-G81/android_vendor_infinix_X6532) | vendor blobs for `X6532` |
+| [`android_vendor_tecno_KL5`](https://github.com/Transsion-G81/android_vendor_tecno_KL5) | vendor blobs for `KL5` / `KL5n` |
+| [`android_kernel_infinix_X6531`](https://github.com/Transsion-G81/android_kernel_infinix_X6531) | kernel source for `X6531` / `X6531B` |
+| [`android_kernel_infinix_X6532`](https://github.com/Transsion-G81/android_kernel_infinix_X6532) | kernel source for `X6532` |
+| [`android_kernel_tecno_KL5`](https://github.com/Transsion-G81/android_kernel_tecno_KL5) | kernel source for `KL5` / `KL5n` |
 
 Device / vendor trees live on the `los23-test` branch, kernels on `lineage-23.2`.
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 - **Unofficial** and a work in progress — not affiliated with LineageOS, Infinix
   or TECNO.
@@ -85,10 +84,12 @@ Device / vendor trees live on the `los23-test` branch, kernels on `lineage-23.2`
   your own risk.**
 - Please do not report issues with these builds to LineageOS.
 
-## 🙏 Credits
+## Credits
 
 - [LineageOS](https://github.com/LineageOS) — the ROM and the MediaTek
   [hardware](https://github.com/LineageOS/android_hardware_mediatek) /
   [sepolicy](https://github.com/LineageOS/android_device_mediatek_sepolicy_vndr) trees
 - [techyminati](https://github.com/techyminati) — `android_vendor_mediatek_ims`
+- [MillenniumOSS](https://github.com/MillenniumOSS) — device tree reference
+- Xiaomi `gale` / `earth` device trees — device tree reference
 - Device specifications — [GSMArena](https://www.gsmarena.com)
