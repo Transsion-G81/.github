@@ -4,8 +4,8 @@
 
 **Device Trees for MediaTek Helio G81 (MT6768) Transsion phones**
 
-![LineageOS](https://img.shields.io/badge/LineageOS-23.x-167C80?style=flat-square&logo=lineageos&logoColor=white)
-![Android](https://img.shields.io/badge/Android-16-3DDC84?style=flat-square&logo=android&logoColor=white)
+![LineageOS](https://img.shields.io/badge/LineageOS--167C80?style=flat-square&logo=lineageos&logoColor=white)
+![Android](https://img.shields.io/badge/Android--3DDC84?style=flat-square&logo=android&logoColor=white)
 ![SoC](https://img.shields.io/badge/SoC-Helio%20G81%20(MT6768)-informational?style=flat-square)
 
 Infinix HOT 50i &nbsp;·&nbsp; Infinix Smart 9 &nbsp;·&nbsp; TECNO Spark 30C
