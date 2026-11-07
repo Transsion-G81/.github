@@ -74,8 +74,6 @@ of every uploaded file). Run `./build-all.sh --help` for everything, or see the
 | [`android_kernel_infinix_X6532`](https://github.com/Transsion-G81/android_kernel_infinix_X6532) | kernel source for `X6532` |
 | [`android_kernel_tecno_KL5`](https://github.com/Transsion-G81/android_kernel_tecno_KL5) | kernel source for `KL5` / `KL5n` |
 
-Device / vendor trees live on the `los23-test` branch, kernels on `lineage-23.2`.
-
 ## Disclaimer
 
 - **Unofficial** and a work in progress — not affiliated with LineageOS, Infinix
